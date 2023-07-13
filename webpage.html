@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+<style>
+    .log{
+        margin-left: 15rem;
+    }
+    .recip{
+        margin-left: 18rem;
+    }
+    .cheese{
+        margin-left: 7rem;
+    margin-top: 10rem;
+    }
+    .pic{
+        margin-left: 40rem;
+    margin-top: -20rem;
+    }
+    h1{
+        font-size: 75px;
+        font-weight: 700;
+    }
+    h3{
+    margin-left: 2rem;
+    }
+    .reci{
+      
+      margin-left: 50rem;
+    margin-top: -12rem;
+    height: 12rem;
+    }
+    .chat{
+     
+      margin-left: 25rem;
+    margin-top: -12rem;
+    height: 12rem;
+    }
+    .nutri{
+      margin-top: 3rem;
+    height: 12rem;
+}
+.mental{
+  display: flex !important;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+}
+p{
+  color: rgb(186, 202, 202);
+}
+.reviews{
+  display: flex !important;
+    justify-content: space-around;
+}
+.sign-btn{
+ 
+  background: #0e0f10;
+  padding: 0px 30px;
+  height: 50px;
+  border-radius: 999em;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: .15s background-color,.15s border-color,.15s color,.15s fill;
+  font-weight: 600;
+}
+.sign{
+  background-color: rgb(206, 206, 29);
+  height: 700px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ip{
+  background-color: #545454;
+    border-radius: 25px;
+    border: none;
+    padding: 20px; 
+    width: 230px;
+    height: 15px;
+}
+li{
+  color: azure;
+}
+</style>
+<body>
+  <script src="bootstrap/js/bootstrap.js"></script>
+    <div>
+        <nav class="navbar navbar-expand-lg bg-body-">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><h4>Double C&B</h4></a>
+              <div class="collapse navbar-collapse recip" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Recipes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Food</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">How this diet work</a>
+                  </li>
+                </ul>
+                <div class="log">
+                  <button type="button" class="btn btn-dark btn-lg" style="border-radius: 10px;height: 50px;">Login</button>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+        <div class=" cheese">
+            <h1>Double Cheese <br> and Bacon</h1>
+            <h14>Find the best keto recipes with their nutritional <br>values and more</h14>
+            <div class="d-flex rec">
+            <button type="button" class="btn btn-warning btn-lg" style="border-radius: 10px;height: 40px;width: 100px;">Recipes</button>
+            &nbsp;&nbsp;<h14>400+ delicious and amazing recipes <br> for your keto diet!</h14>
+        </div>
+        </div>
+        <div class="pic">
+            <img src="bootstrap/cheese.jpg" class="img-thumbnail" alt="..."style="width: 450px; border-radius: 3%;" height="250px">
+        </div>
+        <div class="will" style="background-color: rgb(217, 220, 220);">
+        <div class="card nutri" style="width: 24rem;background-color: rgb(217, 220, 220); border-color:rgb(217, 220, 220)">
+          <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="9.5" cy="10" r="9.5" fill="url(#paint0_linear_18_352)"/>
+            <defs>
+            <linearGradient id="paint0_linear_18_352" x1="3.0875" y1="-2.825" x2="19" y2="19.5" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EEE9D7"/>
+            <stop offset="0.734375" stop-color="#FFCF23"/>
+            </linearGradient>
+            </defs>
+            </svg>            
+            <h5 class="card-title">Nutritional Values</h5>
+            <h14 class="card-text">Double C&B will provide you the nutritional value of a recipe. It describes the amount of carbohydrates, fats, proteins and energy that can be used during digestion.</h14>
+        </div>
+          <div class="card chat" style="width: 24rem;background-color: rgb(217, 220, 220); border-color:rgb(217, 220, 220)">
+            <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="9.5" cy="10" r="9.5" fill="url(#paint0_linear_18_352)"/>
+              <defs>
+              <linearGradient id="paint0_linear_18_352" x1="3.0875" y1="-2.825" x2="19" y2="19.5" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#EEE9D7"/>
+              <stop offset="0.734375" stop-color="#FFCF23"/>
+              </linearGradient>
+              </defs>
+              </svg>            
+              <h5 class="card-title">Chat with Experts</h5>
+              <h14 class="card-text">Chat with our experts through our live chat or WhatsApp. Ask about our diet program, how it works and how to get it!</h14>
+            </div>
+              <div class="card reci" style="width: 24rem; background-color: rgb(217, 220, 220); border-color:rgb(217, 220, 220)">
+             <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="9.5" cy="10" r="9.5" fill="url(#paint0_linear_18_352)"/>
+              <defs>
+              <linearGradient id="paint0_linear_18_352" x1="3.0875" y1="-2.825" x2="19" y2="19.5" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#EEE9D7"/>
+              <stop offset="0.734375" stop-color="#FFCF23"/>
+              </linearGradient>
+              </defs>
+              </svg>            
+              <h5 class="card-title">Recipes </h5>
+              <h14 class="card-text">400+ recipes with their nutritional values. Every week you will find new recipes to add to your diet. Breakfast, lunch, dinner and desserts available for you.</h14>
+            </div>
+          </div>
+            <div class="d-flex mental">
+            <div>
+              <img src="bootstrap/mental.jpg" class="img-thumbnail" alt="..."style="width: 450px; border-radius: 3%;" height="250px">
+            </div>
+            <div class="double"><br><br>
+               <h4 style="font-weight: 700;font-size: 20px; font-family: inherit;
+               color: white;"> Double C&B Program: How this Work?</h4><br>
+               <p>Our principal goal is to focus in the mental health. Working on us <br> inside, set our goals and write down the reasons of why are we <br> doing this will help us to achieve better results, not only in our body <br> but in our mind. </p>
+               <p>5 weeks recipes for your breakfast, lunch and dinner.</p>        
+               <p>  . Zoom calls with our experts.</p>
+               <p>  . We will follow your progress during those 5 weeks.</p>
+               <p>  . We will provide you tips on how to make this a lifestyle.</p>
+            </div>
+          </div>
+          <div class="reviews d-flex">
+          <div class="card" style="width: 18rem;border-color: white;background-color: rgb(244, 248, 248);">
+            <div class="card-body">
+              <h15 class="card-text">“The reason why I wanted to do this program was to work on my mind first and then on my body, and I did it! They really helped me to understand me inside...”</h15><br>
+              <img src="bootstrap/women.jpg" class="img-thumbnail" alt="..." style="width: 50px; border-radius: 3rem;" height="50px"><br>
+              <h6>Patty sultan</h6>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;border-color: white;background-color: rgb(244, 248, 248);">
+            <div class="card-body">
+              <h15 class="card-text">“The reason why I wanted to do this program was to work on my mind first and then on my body, and I did it! They really helped me to understand me inside...”</h15><br>
+              <img src="bootstrap/women2.jpg" class="img-thumbnail" alt="..." style="width: 50px; border-radius: 3rem;" height="50px"><br>
+              <h6>Jess Fonseca</h6>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;border-color: white;background-color: rgb(244, 248, 248);">
+            <div class="card-body">
+              <h15 class="card-text">“The reason why I wanted to do this program was to work on my mind first and then on my body, and I did it! They really helped me to understand me inside...”</h15><br>
+              <img src="bootstrap/man.jpg" class="img-thumbnail" alt="..." style="width: 50px; border-radius: 3rem;" height="50px"><br>
+              <h6>David Cole</h6>
+            </div>
+          </div>
+          </div>
+          <div class="d-flex sign" >
+              <h5>It’s time to </h5>
+              <h3>WORK ON YOURSELF AND BE YOUR BEST VERSION</h3>
+              <a href="" class="sign-btn">I will do it now!</a>
+          </div>
+          <div class="container" style="background-color: #0e0f10;color: white;">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-4 col-md-2 mb-2">
+        <h4>Double C&B </h4>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>First column</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">First page</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Second page</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Third</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Fourth</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Second</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Fifth page</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sixth page</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Eight</a></li>
+        </ul>
+      </div>
+
+      <!-- <div class="col-6 col-md-2 mb-3">
+        <h5>Third</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Fifth page</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sixth page</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Eight</a></li>
+        </ul>
+      </div> -->
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <h5>Subscribe</h5>
+        <form>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <input id="newsletter1" type="email" class="ip" placeholder="Email address">
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+              <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
+            </svg> --> 
+          </div>
+          <br>
+          </form>
+          <h16>Join our newsletter to stay up to <br> date on features and releases</h16>
+      </div>
+    </div>
+  </footer>
+</div>
+          </body>    
+
+</html>
